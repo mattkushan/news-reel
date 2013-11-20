@@ -42,7 +42,7 @@ foreach($news as $key => $newssource){
     	$description = $feed[$x]['desc'];
     	$date = date('h:m F d, Y', strtotime($feed[$x]['date']));
     	echo '<div class="story">';
-    	echo '<p><a style="color: rgb(' . $columncolor .');" title="' . $date .'" href="news-reel2.php?select='. $key  . '&link=' . $link . '&title=' . $title .  '">'.$title.'</a></p>';
+    	echo '<p><a style="color: rgb(' . $columncolor .');" title="' . $date .'" href="compile-slideshow.php?select='. $key  . '&link=' . $link . '&title=' . $title .  '">'.$title.'</a></p>';
     	//echo '<span class="date"><em>'.$date.'</em></span></p>';    
     	echo '</div><!-- .story -->' . "\n";
 		//$R=5+$R; $G=5+$G; $B=5+$B; 
