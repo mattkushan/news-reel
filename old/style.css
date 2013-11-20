@@ -1,0 +1,237 @@
+
+
+/* =Home
+-------------------------------------------------------------- */
+
+@import url(http://fonts.googleapis.com/css?family=Varela);
+@import url(http://fonts.googleapis.com/css?family=Raleway:700);
+@import url(http://fonts.googleapis.com/css?family=Cedarville+Cursive);
+
+#wrapper-index{
+	//width: 1200px;
+	//margin: 0 auto;
+
+}
+
+.title{
+	width:95%;
+	font-size: 2em;
+	font-family: 'Varela', sans-serif;
+	margin-top: .5em;
+	margin-bottom: .1em;
+	cursor: pointer;
+	-webkit-box-shadow: 2px 2px 3px rgba(50, 50, 50, 0.75);
+	-moz-box-shadow:    2px 2px 3px rgba(50, 50, 50, 0.75);
+	box-shadow:         2px 2px 3px rgba(50, 50, 50, 0.75);
+}
+
+.title:first-child {
+
+}
+
+.stories{
+	//float: left;
+	width:90%;
+	//margin: 0 auto;
+	-moz-column-count: 4;
+	-webkit-column-count: 4;
+	margin-top: 2em;
+	font-family: 'Varela', sans-serif;
+	//background: rgba(0,0,0,0.5);
+}
+
+.stories .story {
+	display: inline-block;
+	width: 200px;
+	//height: 100% !important;
+    margin-bottom: 1em;
+	//margin-right: 1em;
+    border-bottom: 10px solid rgba(255,255,255,.5);
+    border-right: 10px solid rgba(255,255,255,.7);
+    padding-top: .5em;
+    padding-left: 1em;
+    padding-right: .5em;
+}
+
+.stories .story:last-child {
+}
+
+
+
+.story a:link, .story a:visited  {
+	text-decoration: none;
+	color: rgb(0,0,0);
+	text-transform: uppercase;
+}
+
+.story a:hover {
+	text-decoration: none;
+	color: rgb(255,255,255);
+}
+
+.story span {
+	color: rgb(255,255,255);
+	font-size: .8em;
+}
+
+
+
+/* =Animation Page
+-------------------------------------------------------------- */
+
+#text div{
+	line-hieght: 0%;
+	font-family: 'Raleway', sans-serif;
+}
+
+#wrapper{
+	margin-top: 10%;
+}
+
+img {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   z-index: -1;
+}
+
+#text div{
+	width: 800px;
+	height: 200px;
+	text-align: center;
+
+	position: absolute;
+	top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	
+	margin: auto;
+
+}
+
+
+.linger{
+	z-index: -9999;
+}
+
+
+@media (max-width: 3000px) {
+ #text div{
+	width: 100%;
+	height: 30%;
+	text-align: center;
+
+	position: absolute;
+	top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	
+	margin: auto;
+  }
+  
+  #text div span{
+  	font-size: 9em;
+  }
+  
+@media (max-width: 1600px) {
+ #text div{
+	width: 100%;
+	height: 30%;
+	text-align: center;
+
+	position: absolute;
+	top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	
+	margin: auto;
+  }
+  
+  #text div span{
+  	font-size: 7em;
+  }
+  
+@media (max-width: 1300px) {
+ #text div{
+	width: 100%;
+	height: 30%;
+	text-align: center;
+
+	position: absolute;
+	top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	
+	margin: auto;
+  }
+  
+  #text div span{
+  	font-size: 5em;
+  }  
+  
+}
+
+@media (max-width: 1000px) {
+ #text div{
+	width: 100%;
+	height: 30%;
+	text-align: center;
+
+	position: absolute;
+	top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	
+	margin: auto;
+  }
+  
+  #text div span{
+  	font-size: 3em;
+  }  
+}
+
+@media (max-width: 800px) {
+ #text div{
+	width: 100%;
+	height: 30%;
+	text-align: center;
+
+	position: absolute;
+	top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	
+	margin: auto;
+  }
+  
+  #text div span{
+  	font-size: 1.8em;
+  }  
+}
+
+@media (max-width: 480px) {
+ #text div{
+	width: 100%;
+	height: 30%;
+	text-align: center;
+
+	position: absolute;
+	top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	
+	margin: auto;
+  }
+  
+  #text div span{
+  	font-size: 1.2em;
+  }  
+}
+

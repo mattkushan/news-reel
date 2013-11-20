@@ -1,0 +1,299 @@
+
+
+/* =Home
+-------------------------------------------------------------- */
+
+@import url(http://fonts.googleapis.com/css?family=Varela);
+@import url(http://fonts.googleapis.com/css?family=Raleway:700);
+@import url(http://fonts.googleapis.com/css?family=Cedarville+Cursive);
+@import url(http://fonts.googleapis.com/css?family=Abril+Fatface);
+@import url(http://fonts.googleapis.com/css?family=VT323);
+@import url(http://fonts.googleapis.com/css?family=Special+Elite);
+@import url(http://fonts.googleapis.com/css?family=Monoton);
+@import url(http://fonts.googleapis.com/css?family=Metal+Mania);
+@import url(http://fonts.googleapis.com/css?family=Finger+Paint);
+@import url(http://fonts.googleapis.com/css?family=Clicker+Script);
+@import url(http://fonts.googleapis.com/css?family=Pompiere);
+@import url(http://fonts.googleapis.com/css?family=Sancreek);
+
+body{
+  background-image: url(none)  no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#wrapper-index{
+
+}
+
+#worldclock{
+	//width: 1000px;
+	//margin: 0 auto;
+	height: 100px;
+	//background: #eee;
+	padding-top: 1em;
+	text-align: center;
+}
+
+.time{
+	font-size: .9em;
+	font-family: 'Varela', sans-serif;
+	margin-left: 1em;
+	width: 15%;
+	min-width: 80px;
+	float: left;
+}
+.time span{
+	font-size: 1.3em;
+	line-height: 20%;
+}
+
+.time p{
+	font-size: .7em;
+	line-height: 20%;
+}
+
+.clear{
+	clear: both;
+}
+
+
+.title{
+	font-size: 1.1em;
+	font-family: 'Varela', sans-serif;
+	margin-top: .5em;
+	margin-bottom: .1em;
+	cursor: pointer;
+	text-transform: uppercase;
+	border-bottom: 5px solid #FFF;
+}i
+
+.tiitle:first-child {
+
+}
+
+.stories{
+	font-size: .7em;
+	font-family: 'Varela', sans-serif;
+	//min-width: 300px;
+	//max-width: 400px;
+	margin-top: 1em;
+	//display: inline-block;
+}
+
+.story {
+	font-size: .7em;
+	font-family: 'Varela', sans-serif;
+	display: block;
+	text-align: center;
+}
+
+.stories .story:last-child {
+}
+
+.story p {
+	font-size: 1em;
+}
+
+
+.story a:link, .story a:visited  {
+	text-decoration: none;
+	color: rgb(0,0,0);
+	text-transform: uppercase;
+}
+
+.story a:hover {
+	text-decoration: none;
+	color: rgb(0,50,50);
+}
+
+.story span {
+	color: blue;
+	font-size: .8em;
+}
+
+
+
+/* =Animation Page
+-------------------------------------------------------------- */
+
+#text div{
+	line-hieght: 0%;
+	font-family: 'Raleway', sans-serif;
+	/*font-family: 'Abril Fatface', cursive;*/
+	text-decoration: normal;
+}
+
+#wrapper{
+	margin-top: 10%;
+}
+
+img {
+   display: none;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   z-index: -1;
+}
+
+/*
+#text div{
+	width: 800px;
+	height: 200px;
+	text-align: center;
+
+	position: absolute;
+	top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	
+	margin: auto;
+
+}
+*/
+
+  #text div span{
+  	font-size: 1em;
+  }
+
+ #text div{
+	width: 100%;
+	height: 30%;
+	text-align: center;
+
+	position: absolute;
+	top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	
+	margin: auto;
+  }
+
+.linger{
+	z-index: -9999;
+}
+/*
+
+@media (max-width: 3000px) {
+ #text div{
+	width: 100%;
+	height: 30%;
+	text-align: center;
+
+	position: absolute;
+	top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	
+	margin: auto;
+  }
+  
+  #text div span{
+  	font-size: 9em;
+  }
+  
+@media (max-width: 1600px) {
+ #text div{
+	width: 100%;
+	height: 30%;
+	text-align: center;
+
+	position: absolute;
+	top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	
+	margin: auto;
+  }
+  
+  #text div span{
+  	font-size: 7em;
+  }
+  
+@media (max-width: 1300px) {
+ #text div{
+	width: 100%;
+	height: 30%;
+	text-align: center;
+
+	position: absolute;
+	top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	
+	margin: auto;
+  }
+  
+  #text div span{
+  	font-size: 5em;
+  }  
+  
+}
+
+@media (max-width: 1000px) {
+ #text div{
+	width: 100%;
+	height: 30%;
+	text-align: center;
+
+	position: absolute;
+	top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	
+	margin: auto;
+  }
+  
+  #text div span{
+  	font-size: 3em;
+  }  
+}
+
+@media (max-width: 800px) {
+ #text div{
+	width: 100%;
+	height: 30%;
+	text-align: center;
+
+	position: absolute;
+	top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	
+	margin: auto;
+  }
+  
+  #text div span{
+  	font-size: 1.8em;
+  }  
+}
+
+@media (max-width: 480px) {
+ #text div{
+	width: 100%;
+	height: 30%;
+	text-align: center;
+
+	position: absolute;
+	top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	
+	margin: auto;
+  }
+  
+  #text div span{
+  	font-size: 1.2em;
+  }  
+}
+*/

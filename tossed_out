@@ -1,0 +1,128 @@
+
+session_start();
+
+// Used in case browser is refreshed
+if(isset($_GET['select']) /*you can validate the link here*/){
+$_SESSION['select']=$_GET['select'];
+}
+if(isset($_SESSION['select']) && $_SESSION['select']!=$_SERVER['PHP_SELF']);
+ 
+// Used in case browser is refreshed
+if(isset($_GET['link']) /*you can validate the link here*/){
+$_SESSION['link']=$_GET['link'];
+}
+if(isset($_SESSION['link']) && $_SESSION['link']!=$_SERVER['PHP_SELF']);
+
+
+
+	<?php $headlines[] = $item; echo "\n";?>
+
+	<?php if($item == "") : ?>
+
+	<?php elseif($item == "A") : ?>
+		<div id="frame-<?php echo $wordIndex; ?>" class="a"><?php echo "$item"; ?></div>
+
+	<?php elseif($item == "AFGHANISTAN") : ?>
+		<div id="frame-<?php echo $wordIndex; ?>" class="afghanistan">
+		<?php echo CenterImage('img/afghanistan/001.png');	?>
+		</div>
+
+	<?php elseif($item == "KILLED") : ?>
+		<div id="frame-<?php echo $wordIndex; ?>" class="normalFont-whiteText-redBackground"><?php echo "$item"; ?></div>
+
+	<?php elseif($item == "RADICAL") : ?>
+		<div id="frame-<?php echo $wordIndex; ?>" class="cursiveFont-blackText-whiteBackground"><?php echo "$item"; ?></div>
+
+	<?php elseif($item == "SLOW") : ?>
+		<div id="frame-<?php echo $wordIndex; ?>" class="normalFont-blackText-letterSpaced"><?php echo "$item"; ?></div>
+
+	<?php elseif($item == "THE") : ?>
+		<div id="frame-<?php echo $wordIndex; ?>" class="normalFont-blackText-underline"><?php echo "$item"; ?></div>
+
+
+	<?php else: ?>
+		<div id="frame-<?php echo $wordIndex; ?>"><?php echo "$item"; ?></div>
+ 	<?php endif; ?>
+
+
+
+
+
+		if($this->word == "AFGHANISTAN"){
+			$this->img = 'img/afghanistan/00'. rand(1,1) .'.png';
+		}
+		if($this->word == "BAD"){
+			$this->wordClass = "normalFont-whiteText-redBackground";
+		}
+		if($this->word  == "BOMB" || $item == "BOMBER" || $item == "BOMBIMG"){
+			$this->wordClass = "normalFont-blackText-underline";
+			$this->img = "http://fc08.deviantart.net/fs70/i/2011/150/0/d/explosion_by_dbszabo1-d3hmssu.png";
+		}	
+		if($this->word  == "CASH"){
+			$this->wordClass = "normalFont-whiteText-greenBackground";
+		}
+		if($this->word  == "GOOD"){
+			$this->wordClass = "normalFont-whiteText-greenBackground";
+		}
+		if($this->word  == "KILLED"){
+			$this->wordClass = "normalFont-whiteText-redBackground";
+		}
+		if($this->word == "RADICAL"){
+			$this->wordClass = "cursiveFont-blackText-whiteBackground";
+		}
+		if($this->word  == "SLOW"){
+			$this->wordClass = "normalFont-blackText-letterSpaced";
+		}
+		if($this->word  == "THE"){
+			$this->wordClass = "normalFont-whiteText-underline";
+			$this->img = "http://www.doctorramey.com/wp-content/uploads/2011/05/Race_Horse_Animation_by_AkiCheval.gif";
+			$this->delay = "1000";
+		}
+		if($this->word  == "THIER"){
+			$this->wordClass = "normalFont-blackText-italics";
+		}
+
+
+
+$frameProperties = array( 
+
+array(	"Word" => "A", 
+		"StyleClass" => "normalFont-blackText-underline",
+		"ImageURL" => "",
+		"Delay" => "" ),
+
+array(	Word => "AFGHANISTAN", 
+		StyleClass => "normalFont-blackText-letterSpaced", ImageURL => "", Delay => "" ),
+
+array(	Word => "BAD", 
+		StyleClass => "normalFont-whiteText-redBackground",
+		ImageURL => "",
+		Delay => "" ),
+
+array(	Word => "GOOD", 
+		StyleClass => "normalFont-whiteText-greenBackground",
+		ImageURL => "",
+		Delay => "" ),
+
+array(	Word => "KILLED", 
+		StyleClass => "normalFont-whiteText-redBackground",
+		ImageURL => "",
+		Delay => "1000" ),
+
+array(	Word => "RADICAL", 
+		StyleClass => "cursiveFont-blackText-whiteBackground",
+		ImageURL => "",
+		Delay => "" ),
+
+array(	Word => "SLOW", 
+		StyleClass => "normalFont-blackText-letterSpaced",
+		ImageURL => "",
+		Delay => "" ),
+
+array(	'Word' => "THE", 
+		'StyleClass' => "normalFont-whiteText-underline",
+		'ImageURL' => "http://www.doctorramey.com/wp-content/uploads/2011/05/Race_Horse_Animation_by_AkiCheval.gif",
+		'Delay' => "2000" )
+);
+
+
