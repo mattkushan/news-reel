@@ -114,11 +114,13 @@ function changeStyle($div){
 		$('#text div').css('color','black');
 		$('#text div').css('font-size','1em');
 		$('#text div span').css('background-color','transparent');
+		$('#text div').css('top','0');
 	}
 	else if ($div.is('.clearBackground') == true) {
 		$('body').css('background-image','url("null")');
 		$('body').css('background-color','white');
 		$('#text div').css('color','black');
+		$('#text div').css('top','0');
 	}
 	else if ($div.is('.normalFont-blackText-italics') == true) {
 		$('#text div').css('font-style','italic');
@@ -214,7 +216,9 @@ function changeStyle($div){
 		$('#text div').css('color','#0d1c47');
 		$('body').css('background-color','#081326');
 	}
-
+	else if ($div.is('.falldown') == true) {
+		$('#text div').css('top','200px');
+	}
 	else
 	{     //CLEAR
 		//$('body').css('background-image','url(' + "none" + ')');
@@ -230,9 +234,9 @@ function changeStyle($div){
 function getImage($div){
 
 	if ($div.has('img').length == true) {
+		$('#text div').css('color','white');
 		var src = $div.children('img').attr('src');
 		$('body').css('background-image', 'url(' + src + ')');
-		$('body').css('color','white');
 		//$('body').html(src);
 	}
 

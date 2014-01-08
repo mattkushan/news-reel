@@ -26,6 +26,8 @@ STYLING GUIDE SELECTION
 
 .darkblueText-darkblueBackground
 
+.falldown
+
 .fingerFont-blackText-whiteBackground
 
 .funFont-pinkText-blackBackground
