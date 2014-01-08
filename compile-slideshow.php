@@ -9,6 +9,8 @@ $frameProperties = array();
 $frameProperties[] = array("Word" => "A", "StyleClass" => "clearFont");
 //$frameProperties[] = array("Word"  => "A", "StyleClass" => "normalFont-blackText-letterSpaced", "ImageURL" => "http://i56.tinypic.com/vpxd2w.gif");
 $frameProperties[] = array("Word"  => "AFGHANISTAN", "StyleClass" => "normalFont-blackText-letterSpaced");
+$frameProperties[] = array("Word" => "ANTARCTICA", "ImageURL" => "img/antarctica/1.jpg");
+$frameProperties[] = array("Word" => "ANTARCTIC", "ImageURL" => "img/antarctica/1.jpg");
 $frameProperties[] = array("Word" => "ANTIQUE", "StyleClass" => "typewriterFont-blackText-whiteTextBackground");
 $frameProperties[] = array("Word" => "AUTHORITIES", "StyleClass" => "normalFont-blackText-underline");
 
@@ -32,6 +34,7 @@ $frameProperties[] = array("Word" => "CHILLY", "StyleClass" => "blueText-blueBac
 $frameProperties[] = array("Word" => "CHINA'S", "StyleClass" => "normalFont-yellowText-redBackground");
 $frameProperties[] = array("Word" => "CHINA", "StyleClass" => "normalFont-yellowText-redBackground");
 $frameProperties[] = array("Word" => "CHINESE", "StyleClass" => "normalFont-yellowText-redBackground");
+$frameProperties[] = array("Word" => "CITY", "ImageURL" => "img/city/1.jpg");
 $frameProperties[] = array("Word" => "COLD", "StyleClass" => "blueText-blueBackground");
 $frameProperties[] = array("Word" => "COMPUTER", "StyleClass" => "computerFont-greenText-blackBackground");
 $frameProperties[] = array("Word" => "COMPUTERS", "StyleClass" => "computerFont-greenText-blackBackground");
@@ -46,13 +49,17 @@ $frameProperties[] = array("Word" => "DARK", "StyleClass" => "darkblueText-darkb
 $frameProperties[] = array("Word" => "DEATH", "StyleClass" => "normalFont-whiteText-blackBackground");
 $frameProperties[] = array("Word" => "DEADLY", "StyleClass" => "metalFont-redText-greyBackground");
 $frameProperties[] = array("Word" => "DEAP", "StyleClass" => "darkblueText-darkblueBackground");
+$frameProperties[] = array("Word" => "DECLINE", "StyleClass" => "falldown");
 $frameProperties[] = array("Word" => "DIED", "StyleClass" => "normalFont-whiteText-redBackground");
 $frameProperties[] = array("Word" => "DEMOCRAT", "StyleClass" => "whiteText-darkblueBackground");
 $frameProperties[] = array("Word" => "DEMOCRATIC", "StyleClass" => "whiteText-darkblueBackground");
+$frameProperties[] = array("Word" => "DRONE", "ImageURL" => "img/drone/1.jpg");
+$frameProperties[] = array("Word" => "DRONES", "ImageURL" => "img/drone/1.jpg");
 
 //E
 $frameProperties[] = array("Word" => "EMERGENCY", "StyleClass" => "normalFont-whiteText-whiteBackground", "ImageURL" => "img/emergency/1.gif");
 $frameProperties[] = array("Word" => "EMERGENCIES", "StyleClass" => "normalFont-whiteText-whiteBackground", "ImageURL" => "img/emergency/1.gif");
+$frameProperties[] = array("Word" => "EUROPE", "ImageURL" => "img/europe/1.jpg");
 $frameProperties[] = array("Word" => "EVIL", "StyleClass" => "metalFont-redText-greyBackground");
 
 
@@ -83,15 +90,20 @@ $frameProperties[] = array("Word" => "HE", "StyleClass" => "normalFont-whiteText
 $frameProperties[] = array("Word" => "HEAT", "StyleClass" => "yellowText-orangeBackground");
 $frameProperties[] = array("Word" => "HEAVY", "StyleClass" => "metalFont-redText-greyBackground");
 $frameProperties[] = array("Word" => "HER", "StyleClass" => "normalFont-whiteText-pinkBackground");
-$frameProperties[] = array("Word" => "HIDE", "StyleClass" => "blackText-blackTextBackground");
-$frameProperties[] = array("Word" => "HIDES", "StyleClass" => "blackText-blackTextBackground");
-$frameProperties[] = array("Word" => "HIDDEN", "StyleClass" => "blackText-blackTextBackground");
+//$frameProperties[] = array("Word" => "HIDE", "StyleClass" => "blackText-blackTextBackground");
+//$frameProperties[] = array("Word" => "HIDES", "StyleClass" => "blackText-blackTextBackground");
+//$frameProperties[] = array("Word" => "HIDDEN", "StyleClass" => "blackText-blackTextBackground");
 $frameProperties[] = array("Word" => "HIS", "StyleClass" => "normalFont-whiteText-blueBackground");
 $frameProperties[] = array("Word" => "HOT", "StyleClass" => "yellowText-orangeBackground");
 
 
 //I
+$frameProperties[] = array("Word" => "IRAQ", "ImageURL" => "img/iraq/1.jpg");
+$frameProperties[] = array("Word" => "IRAQI", "ImageURL" => "img/iraq/1.jpg");
+
 //J
+$frameProperties[] = array("Word" => "JIHAD", "ImageURL" => "img/jihad/1.jpg");
+$frameProperties[] = array("Word" => "JIHADI", "ImageURL" => "img/jihad/1.jpg");
 
 //K
 $frameProperties[] = array("Word" => "KID", "StyleClass" => "fingerFont-blackText-whiteBackground");
@@ -104,12 +116,16 @@ $frameProperties[] = array("Word" => "LEAVES", "StyleClass" => "skinnyFont-brown
 $frameProperties[] = array("Word" => "LEFT", "StyleClass" => "whiteText-darkblueBackground");
 $frameProperties[] = array("Word" => "LETTER", "StyleClass" => "cursiveFont-blackText-whiteBackground");
 $frameProperties[] = array("Word" => "LETTERS", "StyleClass" => "cursiveFont-blackText-whiteBackground");
+$frameProperties[] = array("Word" => "LONDON", "ImageURL" => "img/london/1.jpg");
 
 //M
 $frameProperties[] = array("Word" => "METAL", "StyleClass" => "metalFont-redText-greyBackground");
 $frameProperties[] = array("Word" => "MIAMI", "StyleClass" => "funFont-greenText-blackBackground");
+$frameProperties[] = array("Word" => "MISSILE", "ImageURL" => "img/missile/1.jpg");
+$frameProperties[] = array("Word" => "MISSILES", "ImageURL" => "img/missile/1.jpg");
 $frameProperties[] = array("Word" => "MONEY", "StyleClass" => "normalFont-whiteText-greenBackground");
 $frameProperties[] = array("Word" => "MOTHER", "StyleClass" => "normalFont-whiteText-pinkBackground");
+$frameProperties[] = array("Word" => "MUSLIM", "ImageURL" => "img/muslim/1.jpg");
 
 //N
 $frameProperties[] = array("Word" => "NATURE", "StyleClass" => "skinnyFont-brownText-forestgreenBackground");
@@ -128,6 +144,7 @@ $frameProperties[] = array("Word" => "PAKISTAN", "StyleClass" => "whiteText-fore
 $frameProperties[] = array("Word" => "PARIS", "StyleClass" => "classicFont-blackText-lightgreyBackground");
 $frameProperties[] = array("Word" => "PARTY", "StyleClass" => "funFont-pinkText-blackBackground");
 $frameProperties[] = array("Word" => "PARTIES", "StyleClass" => "funFont-pinkText-blackBackground");
+$frameProperties[] = array("Word" => "PENTAGON", "ImageURL" => "img/pentagon/1.jpg");
 $frameProperties[] = array("Word" => "PLANT", "StyleClass" => "skinnyFont-brownText-forestgreenBackground");
 $frameProperties[] = array("Word" => "PLANTS", "StyleClass" => "skinnyFont-brownText-forestgreenBackground");
 $frameProperties[] = array("Word" => "POLICE", "StyleClass" => "normalFont-whiteText-whiteBackground", "ImageURL" => "img/emergency/1.gif");
@@ -145,11 +162,16 @@ $frameProperties[] = array("Word" => "RIGHT", "StyleClass" => "normalFont-whiteT
 $frameProperties[] = array("Word" => "SCAN", "StyleClass" => "normalFont-blackText-letterSpaced", "ImageURL" => "img/line/1.gif");
 $frameProperties[] = array("Word" => "SCANNED", "StyleClass" => "normalFont-blackText-letterSpaced", "ImageURL" => "img/line/1.gif");
 $frameProperties[] = array("Word" => "SCORCHING", "StyleClass" => "yellowText-orangeTextBackground");
+$frameProperties[] = array("Word" => "SEA", "ImageURL" => "img/sea/1.jpg");
 $frameProperties[] = array("Word" => "STORY", "StyleClass" => "typewriterFont-blackText-whiteTextBackground");
 $frameProperties[] = array("Word" => "SLOW", "StyleClass" => "normalFont-blackText-letterSpaced");
+$frameProperties[] = array("Word" => "SNOW", "ImageURL" => "img/snow/1.jpg");
+$frameProperties[] = array("Word" => "SNOWING", "ImageURL" => "img/snow/1.jpg");
+$frameProperties[] = array("Word" => "STORM", "ImageURL" => "img/weather/1.jpg");
 $frameProperties[] = array("Word" => "STRINGS", "StyleClass" => "cursiveFont-blackText-whiteBackground", "ImageURL" => "img/strings/1.gif");
 $frameProperties[] = array("Word" => "SUN", "StyleClass" => "", "ImageURL" => "img/sun/1.gif");
 $frameProperties[] = array("Word" => "SYRIA", "StyleClass" => "", "ImageURL" => "img/fade/2.gif");
+$frameProperties[] = array("Word" => "SYRIAN", "ImageURL" => "img/syria/1.jpg");
 
 
 //T
@@ -160,6 +182,8 @@ $frameProperties[] = array("Word" => "TYPING", "StyleClass" => "typewriterFont-b
 
 
 //U
+$frameProperties[] = array("Word" => "UK", "ImageURL" => "img/london/1.jpg");
+
 //V
 $frameProperties[] = array("Word" => "VIOLENCE", "StyleClass" => "normalFont-whiteText-orangeBackground");
 $frameProperties[] = array("Word" => "VIOLENT", "StyleClass" => "normalFont-whiteText-orangeBackground");
@@ -170,6 +194,9 @@ $frameProperties[] = array("Word" => "VIOLENT", "StyleClass" => "normalFont-whit
 $frameProperties[] = array("Word" => "WARNING", "StyleClass" => "", "ImageURL" => "img/warning/1.gif");
 $frameProperties[] = array("Word" => "WARNINGS", "StyleClass" => "", "ImageURL" => "img/warning/1.gif");
 $frameProperties[] = array("Word" => "WAS", "StyleClass" => "");
+$frameProperties[] = array("Word" => "WAVE", "ImageURL" => "img/wave/1.jpg");
+$frameProperties[] = array("Word" => "WAVES", "ImageURL" => "img/wave/1.jpg");
+$frameProperties[] = array("Word" => "WEATHER", "ImageURL" => "img/weather/1.jpg");
 $frameProperties[] = array("Word" => "WEST", "StyleClass" => "cowboyFont-blackText-brownBackground");
 $frameProperties[] = array("Word" => "WESTERN", "StyleClass" => "cowboyFont-blackText-brownBackground");
 $frameProperties[] = array("Word" => "WINE", "StyleClass" => "lightpurpleText-purpleBackground");
@@ -232,9 +259,9 @@ class returnFrame
 	function display_image()
 	{
 		if(isset($this->imgURL)){
-		//$sizeInfo = getimagesize($this->imgURL);
-		//echo  '<img src="' . $this->imgURL .'" width="' . $sizeInfo[0] * $this->factor . '" height="' . $sizeInfo[1] * $this->factor . '" style="margin-top: -' . $sizeInfo[1] * $this->factor / 2 . 'px; margin-left: -' . $sizeInfo[0] * $this->factor / 2  . 'px;">';
-		echo  '<img src="' . $this->imgURL .'">';		
+		$sizeInfo = getimagesize($this->imgURL);
+		echo  '<img src="' . $this->imgURL .'" width="' . $sizeInfo[0] * $this->factor . '" height="' . $sizeInfo[1] * $this->factor . '" style="margin-top: -' . $sizeInfo[1] * $this->factor / 2 . 'px; margin-left: -' . $sizeInfo[0] * $this->factor / 2  . 'px;">';
+		//echo  '<img src="' . $this->imgURL .'">';		
 		}
 
 	}
