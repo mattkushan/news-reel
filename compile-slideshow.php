@@ -319,6 +319,11 @@ $html = file_get_html($place);
 // mines data to form news article
 foreach($html->find($mineTag) as $article) {
 //echo $article->p . ' ';
+	// fixes problem of hide captions with npr
+    foreach($html->find('b') as $e)
+    {
+        $e->innertext = '';
+    }
 $data .= $article->plaintext;
 }
 
